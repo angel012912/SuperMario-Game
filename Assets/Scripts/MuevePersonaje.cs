@@ -1,3 +1,9 @@
+/*
+Author: Jose Angel Garcia Gomez
+Date: 01-04-2022
+Description: Program that controls the movement of the player
+*/
+
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
@@ -6,7 +12,7 @@ public class MuevePersonaje : MonoBehaviour
 {
     public float velocidadX = 10;    // Horizontal (para movimiento horizontal) 
     public float velocidadY = 10;    // Vertical (para el salto) 
-    // El componente Rigidbody del personaje (para física) 
+    // El componente Rigidbody del personaje (para fï¿½sica) 
     private Rigidbody2D rb;
     // Start is called before the first frame update 
     //Animator 

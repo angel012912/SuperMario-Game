@@ -1,13 +1,15 @@
+/*
+Author: Jose Angel Garcia Gomez
+Date: 01-04-2022
+Description: Manipulate the life images to represent the life of the character
+*/
+
 using System.Collections;
 using System.Collections.Generic;
 using TMPro;
 using UnityEngine;
 using UnityEngine.UI;
 
-/*
- Autor: Jose Angel Garcia Gomez
-Objetivo: Manipular las imágenes de vida para que represente la vida del personaje
- */
 
 public class HUD : MonoBehaviour
 {
@@ -24,7 +26,7 @@ public class HUD : MonoBehaviour
         instance = this;
     }
 
-    //Método para refrescar las vidas
+    //Mï¿½todo para refrescar las vidas
     public void ActualizarVidas()
     {
         int vidas = SaludPersonaje.instance.vidas;

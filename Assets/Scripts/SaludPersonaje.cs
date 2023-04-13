@@ -1,11 +1,13 @@
+/*
+Author: Jose Angel Garcia Gomez
+Date: 01-04-2022
+Description: Manages the information of the health of the character (lives)
+*/
+
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
-/*
-  Autor: Jose Angel Garcia Gomez
-  Mantiene la información de la salud del personaje (vidas)
- */
 
 
 public class SaludPersonaje : MonoBehaviour
@@ -18,7 +20,7 @@ public class SaludPersonaje : MonoBehaviour
 
     private void Awake()
     {
-        //This se refiere al objeto que esta usando a clase cuando se llama al método
+        //This se refiere al objeto que esta usando a clase cuando se llama al mï¿½todo
         instance = this;
     }
 }

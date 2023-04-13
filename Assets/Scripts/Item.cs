@@ -1,11 +1,14 @@
+/*
+Author: Jose Angel Garcia Gomez
+Date: 01-04-2022
+Description: Detects the collisions with the object
+*/
+
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
-/*
- * Autor: Jose Angel Garcia Gomez A01745865
- * Detecta las colisiones con el objeto
- */
+
 public class Item : MonoBehaviour
 {
     [SerializeField]

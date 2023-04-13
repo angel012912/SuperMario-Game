@@ -1,11 +1,13 @@
+/*
+Author: Jose Angel Garcia Gomez
+Date: 01-04-2022
+Description: Pause and resume the game
+*/
+
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
-/*
- * Autor: Jose Angel Garcia Gomez
- * Objetivo: Pausar y Reaunudar el juego
- */
 
 public class MenuPausa : MonoBehaviour
 {

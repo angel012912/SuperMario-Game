@@ -1,3 +1,9 @@
+/*
+Author: Jose Angel Garcia Gomez
+Date: 01-04-2022
+Description: Program that controls the collision of the player with the enemies
+*/
+
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;

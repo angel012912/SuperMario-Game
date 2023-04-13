@@ -1,3 +1,9 @@
+/*
+Author: Jose Angel Garcia Gomez
+Date: 01-04-2022
+Description: Program that Loads the scene when the user clicks on the play button
+*/
+
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
